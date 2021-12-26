@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("stars_with_gravity.csv")
+df = pd.read_csv("star_with_gravity.csv")
 
 
 mass = df["Mass"].to_list()
